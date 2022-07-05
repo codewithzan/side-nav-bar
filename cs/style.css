@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: #EEEFFF;
+}
+
+.nav-bar {
+  height: 100%;
+  width: 220px;
+  top: 0;
+  left: 0;
+  background: #000000;
+  position: fixed;
+}
+
+.logo {
+  display: block;
+  padding: 20px; 
+  border-bottom: 2px solid #323342;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+}
+.logo ion-icon{
+  margin: 0 10px;
+  font-size: 30px;
+}
+.nav-links {
+  position: relative;
+  background: transparent;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+li {
+  list-style: none;
+  height: 40px;
+  line-height: 45px;
+  margin: 20px 0;
+  padding: 0 30px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 1s;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+
+li a ion-icon{
+  position: absolute;
+  font-size: 24px;
+  padding-top: 8px;
+}
+
+li a p {
+  font-size: 18px;
+  padding: 0 40px;
+}
+
+li:hover,
+li.active {
+  background-color: #EEEFFF;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+li a:hover,
+li a.active {
+  color: #000;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  margin: 15px 0; 
+}
+.social-icons a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px; 
+  font-size: 20px; 
+}
+.social-icons a:hover{
+  color: #616EFF;
+}
